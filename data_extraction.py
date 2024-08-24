@@ -2,10 +2,11 @@ import mysql.connector
 import pandas as pd
 
 con = mysql.connector.connect(
-    host="localhost",
-    username="root",
-    password="12345",
-    database="MDE92")
+    host="Provide your hostname here",
+    user="Provide your username here",
+    password="Provide your password here",
+    database="Provide your database name here"
+)
 
 cursor = con.cursor()
 
